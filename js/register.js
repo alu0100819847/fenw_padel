@@ -2,7 +2,6 @@ let register ={
   "init"    : () => {
     $('#regForm').click(register.setForm);
     register.urlHandler();
-    register.setForm();
   },
   "getForm" : '<div class="row justify-content-md-center ">'+
                 '<div class="formDiv">'+

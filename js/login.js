@@ -58,18 +58,23 @@ let login ={
       type: "GET"
     })
     .done((response, status, data)=>{
-      sessionStorage.setItem('key', data.getResponseHeader("authorization"));
-      login.loged();
-      index.getIndex();
+      console.log(data);
+      if(data.status == 200){
+        sessionStorage.setItem('key', data.getResponseHeader("authorization"));
+        login.loged();
+        index.getIndex();
+      }
+
     })
     .fail((err)=>{
+      if(err.status == 401){
+        $("#passwordLogHelp").html("Usuario o contraseña incorrectos.");
+      }
       console.log(err);
-    })
-    .always((data)=>{
-      console.log(data);
     })
   },
   "logUserVal": () =>{
+    $("#passwordLogHelp").html("");
     $("#loginForm").validate({
         rules: {
             userLog: {
