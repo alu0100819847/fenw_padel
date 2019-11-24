@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Padel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="js/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar mynav">
+  <a class="navbar-brand" href="#">
+    <img src="img/icon.png" width="30" height="30" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a id="index" class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a id="services" class="nav-link" href="#Services">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a id="install" class="nav-link" href="#Installation">Instalaciones</a>
+      </li>
+      <li class="nav-item">
+        <a id="reserva" class="nav-link disabled" href="#Reserva">Reservar</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav flex-row ml-md-auto d-md-flex">
+      <li class="nav-item">
+        <a id="regForm" class="nav-link" href="#Register">Registro</a>
+      </li>
+      <li class="nav-item">
+        <a id="logForm" class="nav-link" href="#Login">Login</a>
+      </li>
+      <li class="nav-item">
+        <a id="logOut" class="nav-link" href="#">Logout</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+
+  <div id="main" class="container">
+    <div class="row main-image">
+      <div class="image-info">
+        <img class="image-icon" src="img/icon.png"/>
+        <h1> Campus Sur </h1>
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col-sm-8 col-md-5 content">
+        <div class="content_info actividades">
+          <h3> Actividades </h3>
+        </div>
+        <div class="content_info">
+          <p>En estas instalaciones, se llevara a cabo actividades de libre acceso.</p>
+          <p>Con estos eventos se pretende fomentar la interacción entre las personas que usen las instalaciones.</p>
+        </div>
+
+      </div>
+      <div class="col-sm-8 col-md-5 content">
+        <div class="content_info instalaciones">
+          <h3> Instalaciones </h3>
+        </div>
+        <div class="content_info">
+          <ul>
+            <li>4 pistas de cristal cubiertas.</li>
+            <li>3 pistas de cristal semicubiertas.</li>
+            <li>3 pistas de cemento exteriores.</li>
+            <li>2 pistas de tenis.</li>
+            <li>Vestuarios completos.</li>
+            <li>Cafeteria con terraza.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-5 content">
+        <div class="content_info torneos">
+          <h3> Torneos </h3>
+        </div>
+        <div class="content_info">
+          <p>Se convocará torneos mensualmente para que participe todo aquel que lo desee.</p>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-5 content">
+        <div class="content_info reservas">
+          <h3> Reservas </h3>
+        </div>
+        <div class="content_info">
+          <p>Se permitirá hacer la reserva de las instalaciones mediante registro en esta web.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/installation.js"></script>
+  <script src="js/login.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/register.js"></script>
+</body>
+</html>

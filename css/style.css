@@ -1,0 +1,85 @@
+body{
+  background-color: #00b9ff1f;
+}
+
+.main-image{
+  background-image: url('../img/inicio.jpg');
+
+  height: 25vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: white;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  box-shadow: 0 0 20px #8475758c;
+}
+
+.image-info{
+  background-color: #ffffff1a;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.image-icon{
+  width: 15%;
+  margin-left: 10%;
+}
+.formDiv{
+margin: 20px;
+border: 1px solid;
+border-color: blue;
+box-shadow: 0 0 20px #8475758c;
+margin-top: 50px;
+padding: 40px;
+}
+
+.mynav{
+  background-color: blue;
+}
+
+.install{
+  margin-top: 50px;
+}
+
+.map{
+  box-shadow: 0 0 20px #8475758c;
+  max-width: 80vh;
+  padding: 20px;
+}
+
+.installInfo{
+  border: 1px ;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #8475758c;
+  padding: 20px;
+}
+
+.content{
+  margin: 10px;
+}
+
+.content_info{
+  border: 1px ;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #8475758c;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+.actividades{
+  background-color: #ff000040;
+}
+
+.instalaciones{
+  background-color: #a52a2a4f;
+}
+
+.torneos{
+  background-color: #0c14f545;
+}
+
+.reservas{
+  background: #ffff014d;
+}
